@@ -2,11 +2,11 @@
 var volverBtn = document.getElementById("volver");
 
 // Obtener la posición vertical de la sección "americano"
-var seccionConque = document.getElementById("americano").offsetTop;
+var seccionAmericano = document.getElementById("americano").offsetTop;
 
 // Función para mostrar/ocultar el botón de volver según la posición del scroll
 function toggleVolverBtn() {
-    if (window.scrollY >= seccionConque) {
+    if (window.scrollY >= seccionAmericano) {
         volverBtn.style.display = "block";
     } else {
         volverBtn.style.display = "none";
